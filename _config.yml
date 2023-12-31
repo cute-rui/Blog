@@ -3,7 +3,7 @@ subtitle: ''
 description: ''
 keywords: null
 author: Lightwing
-language: zh-Hans
+language: zh-CN
 timezone: Asia/Shanghai
 url: https://blog.violet.moe
 permalink: ':year/:month/:day/:title/'
@@ -61,3 +61,8 @@ ignore: null
 theme: icarus
 deploy:
   type: ''
+#Feed Atom
+feed:
+  enable: true
+  type: atom
+  path: atom.xml
