@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build-from-new": "git submodule updatte --init --recursive && hexo generate",
-    "build": "git submodule update && hexo generate",
-    "clean": "git submodule update && hexo clean",
-    "deploy": "git submodule update && hexo deploy",
-    "server": "git submodule update && hexo server"
+    "build-from-new": "git submodule update --init --recursive --remote --force && hexo generate",
+    "build": "git submodule update --remote --force && hexo generate",
+    "clean": "git submodule update --remote --force && hexo clean",
+    "deploy": "git submodule update --remote --force && hexo deploy",
+    "server": "git submodule update --remote --force && hexo server"
   },
   "hexo": {
     "version": "7.0.0"
